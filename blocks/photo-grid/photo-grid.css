@@ -1,0 +1,7 @@
+.photo-grid {
+  margin: 0 auto;
+  padding: 0 0 92px 0;
+  max-width: 1184px;
+  width: calc(100% - 96px);
+  overflow: hidden;
+}

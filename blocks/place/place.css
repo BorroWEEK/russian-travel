@@ -1,0 +1,14 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 460px;
+  gap: 48px 40px;
+  grid-template-areas: 
+    "title website"
+    "image paragraphs"
+  ;
+}
+
+.place:nth-of-type(n + 2) {
+  margin-top: 80px;
+}
