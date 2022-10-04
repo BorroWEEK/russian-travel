@@ -5,8 +5,7 @@
   gap: 48px 40px;
   grid-template-areas: 
     "title website"
-    "image paragraphs"
-  ;
+    "image paragraphs";
 }
 
 .place:nth-of-type(n + 2) {
@@ -22,8 +21,7 @@
     "title"
     "website"
     "image"
-    "paragraphs"
-  ;
+    "paragraphs";
   }
 }
 
