@@ -1,11 +1,21 @@
 .photo-grid__item {
   height: 100%;
   width: 100%;
-  transition: transform 1.5s ease 1s;
-  object-fit: cover;
+  max-height: 213px;
+  min-width: 284px;
   object-position: top right;
 }
 
-.photo-grid__item:hover {
-  transform: scale(1.1);
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .photo-grid__item {
+    min-width: 352px;
+    max-height: 264px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .photo-grid__item {
+    min-width: 300px;
+    max-height: 225px;
+  }
 }

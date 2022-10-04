@@ -43,6 +43,7 @@
 @import url(../blocks/place/__paragraphs/place__paragraphs.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__paragraph/_no-margin/place__paragraph_no-margin.css);
+@import url(../blocks/place/__title/_px-perfect/place__title_px-perfect.css);
 
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);

@@ -1,0 +1,5 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place__title_px-perfect {
+    max-width: 340px;
+  }
+}
