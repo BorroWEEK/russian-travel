@@ -23,6 +23,10 @@
     "image"
     "paragraphs";
   }
+
+  .place:nth-of-type(n + 2) {
+    margin-top: 50px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
