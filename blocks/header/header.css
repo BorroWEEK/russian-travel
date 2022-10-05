@@ -10,13 +10,23 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .header {
     min-width: 288px;
-    padding: 16px 16px 48px 16px;
+    width: calc(100% - 32px);
+    padding: 16px 0 48px 0;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .header {
-    padding: 28px 24px 48px 24px;
-    max-width: 928px;
+    min-width: 288px;
+    width: calc(100% - 48px);
+    padding: 28px 16px 48px 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .header {
+    padding: 28px 0 49px 0;
+    min-width: 928px;
+    width: calc(100% - 96px);
   }
 }
