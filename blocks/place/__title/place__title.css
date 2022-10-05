@@ -12,6 +12,7 @@
     line-height: 109%;
     margin: 0 auto;
     width: calc(100% - 32px);
+    max-width: 484px;
   }
 }
 
